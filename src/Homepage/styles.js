@@ -31,7 +31,7 @@ export const styles = {
     display: 'flex',
     justifyContent: 'space-around',
     fontWeight: '200',
-    fontSize: '4em',
+    fontSize: '4vw',
     margin: 'auto'
   },
   letter: {
@@ -60,7 +60,7 @@ export const styles = {
     '-o-background-size': 'cover',
     backgroundSize: 'cover',
     backgroundPosition: 'center',
-    height: '100%'
+    height: '100vh'
   },
   button: {
     padding: '12px',
