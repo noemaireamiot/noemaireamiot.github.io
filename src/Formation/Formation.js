@@ -28,7 +28,6 @@ const detailsFormation = [
     date: [new Date('2017-09-01'), new Date('2018-06-01')],
     description: `Découverte d'un nouveau pays, d'une nouvelle culture et à travailler en groupe dans un environnement universitaire.`
   }
-
 ]
 
 

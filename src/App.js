@@ -4,6 +4,7 @@ import injectSheet from 'react-jss';
 import Homepage from './Homepage/Homepage.js';
 import About from './About/About.js';
 import Formation from './Formation/Formation.js';
+import Experience from './Experience/Experience.js';
 import { styles } from './Homepage/styles';
 import FaChevronUp from 'react-icons/lib/fa/chevron-up'
 
@@ -31,6 +32,7 @@ class App extends Component {
         <Homepage ref='home' handleClick={this.handleClick}/>
         <About ref='about'/>
         <Formation ref='formation'/>
+        <Experience ref='experience'/>
         <button title='Back to top' className={classes.scroll} onClick={() => this.handleClick('home')}>
           <FaChevronUp/>
         </button>
