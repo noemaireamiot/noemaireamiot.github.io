@@ -4,18 +4,19 @@ import { styles } from './styles.js';
 import CardPrice from './CardPrice';
 import CardExperience from './CardExperience';
 
+
 const detailsExperience = [
   {
     company: 'Micro Erosion',
     title: `Stagiaire maintenance en réseau informatique`,
     date: [new Date('2014-05-01'), new Date('2014-07-01')],
-    description: 'Gestion et maintenance du réseau infomratique de Micro Erosion.'
+    description: 'Gestion et maintenance du réseau infomratique de Micro Erosion.',
   },
   {
     company: 'Solivers',
     title: `Stagiaire développeur logiciel`,
     date: [new Date('2017-04-01'), new Date('2017-08-01')],
-    description: 'Développement logiciel C#/.NET - Développement Web ASP.NET'
+    description: 'Développement logiciel C#/.NET - Développement Web ASP.NET',
   }
 ]
 
@@ -34,22 +35,22 @@ class Experience extends Component {
   render() {
     const { classes } = this.props;
     return (
-      <div className={classes.experience}>
-        <div>
+      <div className={classes.experiencePrice}>
+        <div className={classes.wrapper}>
           <div>
             <div className={classes.headerText}>EXPERIENCE</div>
           </div>
-          <div>
+          <div className={classes.wrapperCards}>
             {
               detailsExperience.map((e, i) => <CardExperience key={`cardExp-${i}`} details={e}/>)
             }
           </div>
         </div>
-        <div>
+        <div className={classes.wrapper}>
           <div>
             <div className={classes.headerText}>RECOMPENSE</div>
           </div>
-          <div>
+          <div className={classes.wrapperCards}>
             {
               detailsPrice.map((e, i) => <CardPrice key={`cardPrice-${i}`} details={e}/>)
             }

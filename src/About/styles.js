@@ -1,4 +1,4 @@
-import ProfilePicture from './../pictures/pp.jpg'
+import ProfilePicture from './../pictures/pp.jpg';
 
 export const styles = {
   about: {

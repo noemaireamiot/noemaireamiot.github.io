@@ -1,5 +1,5 @@
 export const styles = {
-  experience: {
+  experiencePrice: {
     display: 'flex',
     '-webkit-box-shadow': 'inset 0px 16px 15px -15px rgba(0,0,0,0.51)',
     '-moz-box-shadow': 'inset 0px 16px 15px -15px rgba(0,0,0,0.51)',
@@ -7,7 +7,18 @@ export const styles = {
     justifyContent: 'space-around',
     flexWrap: 'wrap',
 //    flexDirection: 'column',
-    padding: '40px 20%'
+    padding: '40px 5%'
+  },
+  wrapper: {
+    width: '40vw',
+    minWidth: '200px'
+  },
+  price: {
+    width: '40vw'
+  },
+  wrapperCards: {
+    display: 'flex',
+    flexDirection: 'column'
   },
   headerText: {
     display: 'inline-block',
@@ -17,4 +28,20 @@ export const styles = {
     paddingLeft: '16px',
     marginBottom: '20px'
   },
+  cardExperience: {
+    //display: 'flex'
+    margin: '2.5% 0',
+  },
+  header: {
+    display: 'flex',
+    flexWrap: 'wrap'
+  },
+  headerContent: {
+    display: 'flex',
+    flexDirection: 'column',
+    width: '60%'
+  },
+  company: {
+    marginBottom: '8px'
+  }
 }
