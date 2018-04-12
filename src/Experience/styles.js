@@ -27,7 +27,6 @@ export const styles = {
       content: '""',
       width: '3px',
       height: '40px',
-      background: '#3498db',
       background: 'linear-gradient(to bottom, #3498db, white)',
       top: '100%',
       left: '253px'
@@ -104,9 +103,8 @@ export const styles = {
   },
   i: {
     verticalAlign: 'middle',
-    /* display: block; */
     fontSize: '1.1em',
-    marginTop: '14px'
+    marginTop: '16px'
   },
   '@media (max-width: 1000px)': {
     icon: {

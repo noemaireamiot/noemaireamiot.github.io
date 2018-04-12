@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import injectSheet from 'react-jss';
 import { styles } from './styles.js';
-import FaChevronUp from 'react-icons/lib/fa/chevron-up'
+import FaGroup from 'react-icons/lib/fa/group';
+import FaCertificate from 'react-icons/lib/fa/certificate';
 
 class CardExperience extends Component {
   render() {
@@ -23,7 +24,7 @@ class CardExperience extends Component {
     return (
       <div className={classes.point}>
         <div className={classes.icon}>
-          <FaChevronUp className={classes.i}/>
+          {(details.label === 'Expérience') ? <FaGroup className={classes.i}/> : <FaCertificate className={classes.i}/>}
         </div>
         <div>
           <span className={classes.label}>{details.label}</span>

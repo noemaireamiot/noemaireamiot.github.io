@@ -24,7 +24,7 @@ const detailsExperience = [
     name: 'Solivers',
     title: `Stagiaire développeur logiciel`,
     date: [new Date('2017-04-01'), new Date('2017-08-01')],
-    description: 'Développement logiciel C#/.NET - Développement Web ASP.NET',
+    description: 'Développement logiciel C#/.NET - Développement Web ASP.NET.',
   }
 ]
 
@@ -34,7 +34,7 @@ class Experience extends Component {
     return (
       <div className={classes.experiencePrice}>
         <div className={classes.header}>
-          <div className={classes.headerText}>EXPERIENCE & RECOMPENSE</div>
+          <div className={classes.headerText}>ÉXPERIENCE & RÉCOMPENSE</div>
         </div>
         <div className={classes.timeline}>
           {
