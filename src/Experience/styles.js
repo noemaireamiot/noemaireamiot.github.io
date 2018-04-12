@@ -19,7 +19,7 @@ export const styles = {
       right: 'auto',
       height: '100%',
       width: '3px',
-      background: '#3498db',
+      background: '#335893',
       zIndex: '0'
     },
     '&:after': {
@@ -27,7 +27,7 @@ export const styles = {
       content: '""',
       width: '3px',
       height: '40px',
-      background: 'linear-gradient(to bottom, #3498db, white)',
+      background: 'linear-gradient(to bottom, #335893, white)',
       top: '100%',
       left: '253px'
     }
@@ -95,7 +95,7 @@ export const styles = {
     color: '#fff',
     width: '50px',
     height: '50px',
-    background: '#3498db',
+    background: '#335893',
     borderRadius: '50%',
     float: 'left',
     zIndex: '99',

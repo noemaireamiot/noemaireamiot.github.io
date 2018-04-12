@@ -17,7 +17,7 @@ class About extends Component {
           </div>
           <div className={classes.content}>
             <div className={classes.header}>
-              <div className={classes.headerText}>A PROPOS</div>
+              <div className={classes.headerText}>À PROPOS</div>
             </div>
             <div className={classes.resume}>
               <div className={classes.resumeText}>

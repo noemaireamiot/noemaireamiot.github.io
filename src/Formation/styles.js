@@ -7,7 +7,7 @@ export const styles = {
     backgroundColor: '#f2f2f5',
     justifyContent: 'space-around',
     flexDirection: 'column',
-    padding: '40px 20%'
+    padding: '40px 15px'
   },
   wrapperCards: {
     display: 'flex',
@@ -28,14 +28,10 @@ export const styles = {
     display: 'flex',
     justifyContent: 'space-between'
   },
-  description: {
-  },
   name: {
     display: 'flex',
     flexDirection: 'column',
     width: '45%'
-  },
-  date: {
   },
   placeText: {
     fontWeight: 'bold',
@@ -45,6 +41,7 @@ export const styles = {
     color: '#74808a'
   },
   header: {
+    padding: '0 20%'
   },
   headerText: {
     display: 'inline-block',

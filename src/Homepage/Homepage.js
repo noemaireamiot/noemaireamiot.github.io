@@ -7,7 +7,7 @@ import AnimeName from './AnimeName.js';
 class Homepage extends Component {
   render() {
     const { handleClick, classes } = this.props;
-    const category = [{type: 'about', name: 'A propos'}, {type: 'formation', name: 'Formation'}, {type: 'experience', name: 'Experience'}, {type: 'skills', name: 'Compétence'}, {type: 'contact', name: 'Contact'}];
+    const category = [{type: 'about', name: 'À propos'}, {type: 'formation', name: 'Formation'}, {type: 'experience', name: 'Experience'}, {type: 'skills', name: 'Compétence'}, {type: 'contact', name: 'Contact'}];
     return (
       <div className={classes.backgroundImage}>
         <div className={classes.backgroundColorBlue}>

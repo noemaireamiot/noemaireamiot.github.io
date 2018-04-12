@@ -33,8 +33,6 @@ export const styles = {
     flex: '4',
     marginLeft: '20px'
   },
-  header: {
-  },
   headerText: {
     display: 'inline-block',
     borderLeft: '3px solid #335893',

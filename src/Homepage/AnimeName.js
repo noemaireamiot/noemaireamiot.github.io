@@ -13,7 +13,7 @@ class AnimeName extends Component {
                 duration={1000}
                 elasticity={500}
                 opacity={1}
-                delay={(el, i) => (45 * (i+1))}>
+                delay={(el, i) => ((45 * (i+1)) + 500)}>
           {[...name].map((e, i) => {
               if (e !== ' ')
                 return (<div key={`letter-${i}`} className={classes.letter}>{e}</div>);

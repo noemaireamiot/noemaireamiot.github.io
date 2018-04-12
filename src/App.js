@@ -6,6 +6,8 @@ import About from './About/About.js';
 import Formation from './Formation/Formation.js';
 import Experience from './Experience/Experience.js';
 import Skills from './Skills/Skills.js';
+import Contact from './Contact/Contact.js';
+import Footer from './Footer/Footer.js';
 import { styles } from './Homepage/styles';
 import FaChevronUp from 'react-icons/lib/fa/chevron-up'
 
@@ -35,6 +37,8 @@ class App extends Component {
         <Formation ref='formation'/>
         <Experience ref='experience'/>
         <Skills ref='skills'/>
+        <Contact ref='contact'/>
+        <Footer/>
         <button title='Back to top' className={classes.scroll} onClick={() => this.handleClick('home')}>
           <FaChevronUp/>
         </button>
